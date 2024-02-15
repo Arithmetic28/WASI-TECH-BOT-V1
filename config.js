@@ -7,24 +7,24 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email ="walterkahambo08@gmail.com"
+global.location="Harare,Zimbabwe."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI=process.env.DATABASE_URL || ""
 global.scan = "https://suhail-md-vtsf.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/10f668308c6df8c40b84a.jpg" ; // SET LOGO FOR IMAGE 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Zimbabwe";
+global.github=process.env.GITHUB|| "https://github.com/Arithmetic28/Suhail-Md";
+global.gurl  =process.env.GURL  ||"";
+global.website=process.env.GURL || "https://chat.whatsapp.com/KOQa5sBFEC5DnidMQFxaaS" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE ||"https://textpro.me/images/user_image/2024/02/65cd2ca355bf1.jpg-s1147-b1" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923007087913" // Developer Contact
+global.devs = "9230070879" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263719532041";
 
 
 
@@ -63,12 +63,12 @@ module.exports = {
   HANDLERS : process.env.PREFIX || ".",
   BRANCH : process.env.BRANCH   || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "© ＧＥＮＲＡＴＥＤ ＢＹＷａｓｉ 🇵🇰" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "© ＧＥＮＲＡＴＥＤ Walter-Md" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author: process.env.PACK_AUTHER || "ｗａｓｉ ｔｅｃｈ ｂｏｔ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "𝗪𝗔𝗦𝗜 𝗫 𝗕𝗢𝗧",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author: process.env.PACK_AUTHER || "Walter-Md⁷",
+  packname: process.env.PACK_NAME || "Arithmetic28",
+  botname : process.env.BOT_NAME  || "Arithmetic28_Md",
+  ownername:process.env.OWNER_NAME|| "It'x Arithmetic28",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
@@ -84,7 +84,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Arithmetic28",
 
 
 
